@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %}How It Works{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width: 900px; margin: 30px auto; padding: 30px;">
+
+  <h1 style="text-align:center; margin-bottom: 20px;">How It Works</h1>
+
+  <!-- Overview -->
+  <div style="margin-bottom: 30px;">
+    <h2 style="margin-bottom: 10px;">Overview</h2>
+    <p style="font-size: 18px; line-height: 1.6;">This project aims to develop an AI-enabled system that provides real-time conversion of speech to sign language through animated avatars, ensuring effective communication and inclusivity for people with hearing and speech impairments during government functions and public events. The solution eliminates the need for sign language experts by using advanced AI algorithms that interpret spoken language and translate it into precise sign language gestures.</p>
+    <p style="font-size: 18px; line-height: 1.6;">Leveraging cutting-edge technologies in speech recognition and computer vision, the system captures live speech from a speaker and processes it through an AI model to generate accurate sign language translations. The use of animated avatars enhances the presentation, ensuring that the sign language gestures are clear, expressive, and easy to understand.</p>
+    <p style="font-size: 18px; line-height: 1.6;">Designed for accessibility, the system provides a scalable, user-friendly interface for various settings, making it possible to deliver real-time translations without the need for human intervention. This not only supports inclusivity for individuals with hearing and speech impairments but also reduces reliance on manual interpreters, providing a more efficient, consistent, and readily available solution. The system is set to improve communication in public events, government functions, and other settings where accessibility is crucial, fostering greater equality and participation for all individuals.</p>
+  </div>
+
+  <!-- The Conversion Process -->
+  <div style="margin-bottom: 30px;">
+    <h2 style="margin-bottom: 20px;">The Conversion Process</h2>
+    <div style="display: flex; flex-wrap: nowrap; justify-content: space-between; gap: 20px;">
+
+      <div style="flex: 0 0 25%;" class="card">
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+          <span class="badge" style="background: #3b82f6; padding: 8px 14px; border-radius: 50%; color: #fff; margin-right: 10px;">1</span>
+          <h3 style="margin: 0;">Speech Input</h3>
+        </div>
+        <p>Your spoken words are captured through your mic and converted to text using Web Speech API.</p>
+        <div style="text-align:center; font-size: 30px; color: #3b82f6; margin-top: 10px;">
+          <i class="fas fa-microphone"></i>
+        </div>
+      </div>
+
+      <div style="flex: 0 0 25%;" class="card">
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+          <span class="badge" style="background: #3b82f6; padding: 8px 14px; border-radius: 50%; color: #fff; margin-right: 10px;">2</span>
+          <h3 style="margin: 0;">Processing</h3>
+        </div>
+        <p>The system analyzes the text and looks for matching sign language gestures in our database.</p>
+        <div style="text-align:center; font-size: 30px; color: #3b82f6; margin-top: 10px;">
+          <i class="fas fa-cogs"></i>
+        </div>
+      </div>
+
+      <div style="flex: 0 0 25%;" class="card">
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+          <span class="badge" style="background: #3b82f6; padding: 8px 14px; border-radius: 50%; color: #fff; margin-right: 10px;">3</span>
+          <h3 style="margin: 0;">Sign Output</h3>
+        </div>
+        <p>Matching phrases trigger GIFs. Unmatched words are spelled using alphabet sign images.</p>
+        <div style="text-align:center; font-size: 30px; color: #3b82f6; margin-top: 10px;">
+          <i class="fas fa-sign-language"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Tips -->
+  <div style="margin-bottom: 20px;">
+    <h2 style="margin-bottom: 10px;">Tips for Best Results</h2>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      <li style="margin-bottom: 8px;"><i class="fas fa-check-circle" style="color: #22c55e; margin-right: 8px;"></i> Speak clearly and at a steady pace.</li>
+      <li style="margin-bottom: 8px;"><i class="fas fa-check-circle" style="color: #22c55e; margin-right: 8px;"></i> Use a quiet environment.</li>
+      <li style="margin-bottom: 8px;"><i class="fas fa-check-circle" style="color: #22c55e; margin-right: 8px;"></i> Try suggested phrases first.</li>
+      <li style="margin-bottom: 8px;"><i class="fas fa-check-circle" style="color: #22c55e; margin-right: 8px;"></i> Break long sentences into smaller parts.</li>
+    </ul>
+  </div>
+
+  <!-- Back Button -->
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="/dashboard" class="btn">⬅️ Back to Converter</a>
+  </div>
+
+</div>
+{% endblock %}

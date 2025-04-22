@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Converter{% endblock %}
+{% block content %}
+<h1>Speech to Sign Language Converter</h1>
+<p>Welcome, <strong>{{ session.get("username") }}</strong>! Ready to convert your speech?</p>
+<button onclick="startListening()">🎙️ Speak Now</button>
+<p id="result"></p>
+<div id="output" style="margin-top:20px;"></div>
+{% endblock %}
