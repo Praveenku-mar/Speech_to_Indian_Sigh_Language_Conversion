@@ -38,7 +38,7 @@ The main goal of this project is to break communication barriers by providing a 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Praveenku-mar/Speech_to_Indian_Sigh_Language_Conversion.git
-   cd repository-name
+   cd Speech_to_Indian_Sigh_Language_Conversion
    ```
 
 2. Install dependencies:
