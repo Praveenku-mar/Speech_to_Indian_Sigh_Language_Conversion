@@ -114,7 +114,7 @@ def process_speech():
         images = []
         for char in text:
             if char in alphabets:
-                img_path = f"/static/Alphabets/{char}.jpg"
+                img_path = f"/static/Indian_Speech_Language_GIFS/{char}.jpg"
                 if os.path.exists("." + img_path):
                     images.append(img_path)
         if images:
