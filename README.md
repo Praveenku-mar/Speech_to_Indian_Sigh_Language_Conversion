@@ -37,7 +37,7 @@ The main goal of this project is to break communication barriers by providing a 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/Praveenku-mar/Speech_to_Indian_Sigh_Language_Conversion.git
    cd repository-name
    ```
 
@@ -54,15 +54,5 @@ The main goal of this project is to break communication barriers by providing a 
 ## Usage
 Once the system is running, simply speak into the microphone, and the system will automatically convert your speech to sign language using animated avatars. The application is designed to function in real-time, providing a smooth user experience.
 
-## Contributing
-We welcome contributions! If you'd like to contribute to this project, feel free to fork the repository, create a branch, and submit a pull request. Please make sure to follow the code style and include tests for any new features or bug fixes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any questions or inquiries, feel free to open an issue or contact us at [your-email@example.com].
-
----
 
 This README file provides a comprehensive overview of the project and instructions on how to get started. It will help others understand the project and how they can contribute.
